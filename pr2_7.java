@@ -103,7 +103,7 @@ public class pr2_7 extends javax.swing.JFrame {
         
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/java?user=root&password=$ahil2003");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/java?user=root&password=*******");
             
             Statement st = con.createStatement();
             //String query = "select email,pwd from login where email="+queryname+"";
