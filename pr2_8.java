@@ -1056,7 +1056,7 @@ public class pr2_8 extends javax.swing.JFrame {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Welcome");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/java?user=root&password=$ahil2003");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/java?user=root&password=********");
             System.out.println("Connection created!");
             
             String s = "insert into score(name, points) values(?,?)";
